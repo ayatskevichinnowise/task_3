@@ -1,3 +1,4 @@
+-- The number of films in each category
 SELECT name, COUNT(fc.film_id) AS amount_of_films
 FROM category c
 	LEFT JOIN film_category fc USING(category_id)

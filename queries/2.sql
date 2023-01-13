@@ -1,3 +1,4 @@
+-- Top 10 actors whose films rented the most
 SELECT a.first_name, a.last_name, COUNT(r.rental_id) AS amount_of_rent
 FROM actor a 
 	JOIN film_actor fa USING(actor_id)

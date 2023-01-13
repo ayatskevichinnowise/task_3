@@ -1,3 +1,4 @@
+-- The category of movies that customers spent on the most money 
 SELECT c.category_id, c."name", SUM(p.amount) AS revenue
 FROM category c  
 	JOIN film_category fc USING(category_id)

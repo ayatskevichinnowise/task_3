@@ -1,3 +1,5 @@
+-- The category of movies that has the largest number of hours of total rental in cities and that starts with the letter “a”. 
+-- Do the same for cities in which there is a “-” symbol.
 SELECT *
 FROM (
 	SELECT  

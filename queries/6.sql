@@ -1,3 +1,4 @@
+-- The cities with the number of active and inactive customers
 SELECT 
 	c2.city_id, 
 	c2.city,
